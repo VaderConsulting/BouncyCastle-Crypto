@@ -1,12 +1,24 @@
 # BouncyCastle Crypto
 
-Bouncy Castle Cryptography API
+Bouncy Castle Cryptography API This tree is a working copy of third-party source kept in Dave Robinson's Historical Dev archive. It is published for catalogue/reference; authorship stays with the original authors noted below.
 
-## Contents
+**Language:** C#  
+**Target:** not recorded  
+**Output:** see projects
 
-- `csharp.sln`
-- `Backup/csharp.sln`
-- `Backup/crypto/crypto.csproj`
+## What it is
+
+Bouncy Castle Cryptography API This tree is a working copy of third-party source kept in Dave Robinson's Historical Dev archive. It is published for catalogue/reference; authorship stays with the original authors noted below.
+
+## Solution structure
+
+| Project | Language | Path |
+|---------|----------|------|
+| `crypto` | C# | `Backup/crypto/crypto.csproj` |
+
+## How to open
+
+Open `csharp.sln` in Visual Studio.
 
 ## Attribution and provenance
 
