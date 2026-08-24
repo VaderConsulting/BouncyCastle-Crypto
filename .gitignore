@@ -1,0 +1,51 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Legacy source-control bindings
+*.scc
+*.vssscc
+*.vspscc
+
+# NuGet
+packages/
+
+
+# Secrets / credentials (never upload)
+*.pfx
+*.p12
+*.pem
+*.key
+.env
+**/appsettings.*.local.json
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Redacted originals (see *.example files)
+Backup/crypto/Readme.html
+Backup/crypto/crypto.csproj
+Backup/crypto/src/bcpg/DSASecretBCPGKey.cs
+Backup/crypto/src/bcpg/SecretSubkeyPacket.cs
+Backup/crypto/src/bcpg/PacketTags.cs
+Backup/crypto/src/bcpg/RSASecretBCPGKey.cs
+Backup/crypto/src/bcpg/SignatureSubpacketTags.cs
+Backup/crypto/src/cms/PasswordRecipientInformation.cs
+Backup/crypto/src/asn1/pkcs/PKCSObjectIdentifiers.cs
+Backup/crypto/src/asn1/cms/PasswordRecipientInfo.cs
+Backup/crypto/src/asn1/x509/X509Name.cs
+Backup/crypto/src/asn1/x509/IssuerSerial.cs
+Backup/crypto/src/asn1/crmf/CertTemplate.cs
+Backup/crypto/src/asn1/crmf/CertTemplateBuilder.cs
+Backup/crypto/bzip2/src/CBZip2OutputStream.cs
+Backup/crypto/bzip2/src/CRC.cs
+Backup/crypto/bzip2/src/CBZip2InputStream.cs
+Backup/crypto/bzip2/src/BZip2Constants.cs
