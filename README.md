@@ -21,6 +21,10 @@ Bouncy Castle Cryptography API This tree is a working copy of third-party source
 
 Open `csharp.sln` in Visual Studio.
 
+## Requirements
+
+- Visual Studio 2012
+
 ## Attribution and provenance
 
 - **Assembly company:** The Legion of the Bouncy Castle
